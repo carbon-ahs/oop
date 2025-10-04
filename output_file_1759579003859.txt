@@ -1,0 +1,11 @@
+ITEM-ID     Quantity    Unit Price  Total Price 
+item-937    12          230.50      2766.00     
+item-432    3           120.00      360.00      
+item-431    1           1230.00     1230.00     
+item-098    5           12.50       62.50       
+item-133    8           30.00       240.00      
+
+Total Items: 29
+				Grand Total: 4658.50
+				VAT (5%): 232.93
+				Net Total: 4891.43
