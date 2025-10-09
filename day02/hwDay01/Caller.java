@@ -12,8 +12,8 @@ public class Caller {
 
         List<GroceryItem> groceryItems = Utils.readCSVFile(CSV_FILE);
         validateGroceryItems(groceryItems);
-        Voucher voucher = new Voucher(groceryItems);
-        Utils.createTxtFile(voucher.getFormattedStringForPrint());
+        Voucher voucher = new Voucher(groceryItems); // validate in constructor
+        Utils.createTxtFile(voucher.getFormattedStringForPrint()); // get voucher string format
     }
 
     private static void validateGroceryItems(List<GroceryItem> groceryItems) {
