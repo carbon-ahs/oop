@@ -20,5 +20,20 @@ void main(List<String> arguments) {
 
   Department department1 = Department("Department A", "HOD A");
 
-  // department1.students.add(student1);
+  department1.addStudent(student1);
+  department1.addStudent(student2);
+
+  print(department1);
+
+  try {
+    // department1.addStudent(
+    //   Student(id: "s03", name: "student C", admissionDate: DateTime.now()),
+    // );
+    department1.students.add(
+      Student(id: "s03", name: "student C", admissionDate: DateTime.now()),
+    );
+    print(department1.students);
+  } catch (e) {
+    print(e);
+  }
 }
